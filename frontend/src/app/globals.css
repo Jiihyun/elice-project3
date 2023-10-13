@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  color: white;
+  text-align: center;
+  background-image: url(/back.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>헤더메뉴 */
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-weight: bold; */
+  font-size: 20px;
+  /* margin-top: 10px; */
+  margin-bottom: 0px;
+}
+
+/* 마음처방전 */
+.home {
+  margin-left: 30px;
+}
+
+/* 메뉴들 */
+.menu {
+  list-style: none;
+  display: flex;
+}
+.menu li {
+  margin-right: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>공통 */
+/* 버튼 공통 스타일 */
+.button {
+  border: none;
+  color: white;
+  background: #3f4499;
+  border-radius: 40px;
+  padding: 5px 20px 5px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(135, 101, 236);
+  color: white;
+  transition: 0.7s;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>다른 페이지 */
+
+/* 다른 페이지들 본문 부분, 투명상자*/
+.body-box {
+  text-align: center;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  padding: 20px 20px 50px 20px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 40px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>게시판 */
+
+.posts {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.board-title {
+  margin: 50px;
+}
